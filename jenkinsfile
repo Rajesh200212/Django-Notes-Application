@@ -4,7 +4,7 @@ pipeline{
     stage("Code"){
       steps{
         echo "Code cloned"
-        git  url:'https://github.com/amar-m-cloud/Django-Notes-Application .git',
+        git  url:'https://github.com/hemanth57/Django-Notes-Application',
         branch:'main'
       }
     }
