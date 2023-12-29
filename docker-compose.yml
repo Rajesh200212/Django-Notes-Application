@@ -1,6 +1,6 @@
 version : "3.3"
 services :
   web :
-     image: hemanth57cloud/django-notes-app
+     image: rajeshudugula/django-notes-app
      ports :
-         - "8083:8083"
+         - "8084:8084"
